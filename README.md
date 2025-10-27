@@ -61,3 +61,40 @@ Option B (fallback wrapper): a minimal MultilabelPredictor that trains one binar
 Evaluate: print micro-F1 and/or per-label F1; preview predictions.
 Artifacts saved:
 multilabel_predictions.csv
+
+Assignment-3
+Apache Beam in Colab — End-to-End Demonstration
+This project showcases how to use Apache Beam (Python SDK) in Google Colab to perform data processing pipelines using the DirectRunner (no cloud setup required).
+It covers all key Beam features required in your assignment:
+✅ Composite Transform
+✅ Pipeline I/O (Read/Write)
+✅ ParDo (DoFn)
+✅ Windowing (FixedWindows)
+✅ Map and Filter
+✅ Partition
+✅ (Optional) BeamML RunInference with scikit-learn
+📘 Overview
+We simulate a small sales dataset (data/sales.csv) with event-time fields.
+The notebook and script demonstrate:
+Composite Transform (CleanAndEnrich)
+Combines multiple steps: parse → filter → compute → ParDo discount.
+Pipeline I/O
+Reads from CSV and writes partitioned JSON outputs.
+ParDo (custom DoFn)
+Adds a discount and computes final revenue.
+Map and Filter
+Demonstrates elementwise transforms.
+Partition
+Splits output into multiple files based on country.
+Windowing
+Groups events into 30-second fixed windows and aggregates SKU revenue.
+
+Explanation of Key Concepts
+Feature	Beam API Used	Description
+Composite Transform	PTransform	Groups multiple transforms into one reusable block (CleanAndEnrich).
+Pipeline I/O	ReadFromText, WriteToText	Reads CSV input and writes JSON outputs.
+ParDo / DoFn	ParDo(AddDiscountDoFn())	Adds discount + final revenue per record.
+Map / Filter	beam.Map, beam.Filter	Functional transformations for enrichment and selection.
+Partition	beam.Partition(partition_fn, 3)	Routes records by country (US, CA, Other).
+Windowing	WindowInto(FixedWindows(30))	Groups events into 30-second windows based on event time.
+BeamML	RunInference + SklearnModelHandlerNumpy	Executes an ML model inside Beam.

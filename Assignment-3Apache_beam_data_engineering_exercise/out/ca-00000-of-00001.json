@@ -1,0 +1,2 @@
+{"order_id": 3, "sku": "B200", "country": "CA", "quantity": 3, "unit_price": 7.5, "event_time": "2025-10-26T12:00:34", "revenue": 22.5, "discount": 0.1, "final_revenue": 20.25}
+{"order_id": 5, "sku": "B200", "country": "CA", "quantity": 5, "unit_price": 7.5, "event_time": "2025-10-26T12:01:18", "revenue": 37.5, "discount": 0.1, "final_revenue": 33.75}
