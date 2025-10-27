@@ -93,3 +93,27 @@ Splits output into multiple files based on country.
 Windowing
 Groups events into 30-second fixed windows and aggregates SKU revenue.
 
+Assignment-4:
+
+PyCaret & Lightweight AutoML Colabs
+This repository contains Google Colab notebooks demonstrating low-code / no-code machine-learning workflows for multiple tasks using PyCaret (where compatible) and lightweight alternatives such as FLAML, XGBoost, and pmdarima.
+Each notebook is self-contained and executes end-to-end in Colab with GPU enabled.
+
+Tasks Covered
+
+A1	Binary Classification (Telco Churn)	FLAML / XGBoost
+
+A2	Multiclass Classification (Dry Beans)	FLAML
+
+A3	Regression (Bike Sharing)	FLAML
+
+B	Clustering (Mall Customers)	scikit-learn KMeans
+
+C	Anomaly Detection (Shuttle Data)	Isolation Forest
+
+D	Association Rules Mining	mlxtend Apriori
+
+E1	Time Series Forecasting – Univariate	pmdarima ARIMA
+
+E2	Time Series Forecasting – Exogenous Vars	pmdarima ARIMA
+
