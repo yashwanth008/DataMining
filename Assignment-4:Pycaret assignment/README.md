@@ -6,7 +6,7 @@ This single Google Colab notebook demonstrates **end-to-end machine learning wor
 
 ---
 
-## Overview
+##  Overview
 The notebook integrates multiple tasks:
 - Classification (Binary + Multiclass)
 - Regression
@@ -20,7 +20,7 @@ Each section is fully executable in Colab with **GPU acceleration** and uses **o
 
 ---
 
-##  How to Run
+## How to Run
 1. Open the notebook in **Google Colab**.  
 2. Go to **Runtime → Change runtime type → GPU** (recommended).  
 3. Run all cells top-to-bottom.  
@@ -29,7 +29,7 @@ Each section is fully executable in Colab with **GPU acceleration** and uses **o
 
 ---
 
-##  Sections in the Notebook
+## Sections in the Notebook
 | Section | Task | Libraries Used | Dataset |
 |----------|------|----------------|----------|
 | A1 | Binary Classification | FLAML, XGBoost | Telco Customer Churn |
@@ -40,11 +40,11 @@ Each section is fully executable in Colab with **GPU acceleration** and uses **o
 | D | Association Rules | mlxtend Apriori | Online Retail / Synthetic |
 | E1 | Time Series Forecast | pmdarima ARIMA | Airline Passengers |
 | E2 | Time Series + Exogenous Vars | pmdarima ARIMA | Synthetic Retail |
-
+| F | Gradio Demos | gradio | Churn Predictor & Forecast App |
 
 ---
 
-##  Video Demonstration
+## Video Demonstration
 Each task has a **short walkthrough (≈1 minute)** explaining:
 - Dataset used  
 - Model setup and AutoML process  
@@ -55,7 +55,7 @@ The final video shows all tasks executed sequentially in a single Colab runtime.
 
 ---
 
-##  Key Features
+## Key Features
 - One unified Colab notebook — no switching needed  
 - Fully reproducible and GPU-accelerated  
 - Handles dataset unavailability with automatic synthetic generation  
@@ -64,9 +64,8 @@ The final video shows all tasks executed sequentially in a single Colab runtime.
 
 ---
 
-## 📅 Metadata
-**Author:** Venkata Yashwanth Paladugu
- 
+## Metadata
+**Author:** Venkata Yashwanth Paladugu 
 **Course:** Data Mining / Machine Learning  
 **Date:** October 2025  
 **Environment:** Google Colab (Tesla T4 GPU, Python 3.12)  
