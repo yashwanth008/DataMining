@@ -37,7 +37,7 @@ This survey fits CMPE 255’s *data mining* focus because it dives into:
 
 ---
 
-## 🧠 Practical Insights
+##  Practical Insights
 - **Metrics:** Normalized Mutual Information (NMI), Adjusted Rand Index (ARI), clustering accuracy  
 - **Applications:** image grouping, document clustering, biological data, sensor networks  
 - **Open Challenges:**
@@ -47,7 +47,7 @@ This survey fits CMPE 255’s *data mining* focus because it dives into:
 
 ---
 
-## 🧩 Example Story Ideas
+## Example Story Ideas
 For your **short story assignment**, you can frame the data-mining dilemma as:
 - *“A hospital system clusters patients for personalized treatment but must decide between fixed and adaptive graphs.”*  
 - *“A social network startup scales community detection using anchor graphs but loses rare-user groups.”*  
@@ -55,7 +55,7 @@ For your **short story assignment**, you can frame the data-mining dilemma as:
 
 ---
 
-## 🧪 Suggested Repo Structure
+## Suggested Repo Structure
 
 ```text
 spectral-clustering-survey/
