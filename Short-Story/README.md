@@ -5,7 +5,7 @@ This repository contains all deliverables for my **CMPE 255 – Data Mining** sh
 The project is based on the 2025 survey:
 
 **“A Comprehensive Survey on Spectral Clustering with Graph Structure Learning”**  
-arXiv:2501.13597v2
+[*arXiv:2501.13597v2*](https://arxiv.org/html/2501.13597v2)
 
 The goal of this project is to translate the survey’s technical content into a clear, accessible article and presentation supported by visual diagrams, slides, and a narrated video.
 
